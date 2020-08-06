@@ -1,17 +1,109 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css'
+import './components/styles/Global.css'
+import Insignia from './components/Insignia.jsx'
+//import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <Insignia firstName='Derly viviana' lastName='Murcia Serrano' ocupacion='FrontEnd' usuarioGit='derlyvivianamurcia' URLAvatar='https://s.gravatar.com/avatar/70caecc888cae6a3fb3858ff8fb8ff59?s=80'  />
+  </>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// CODIGO JSX
+ /*  const jsx = <h1>hola estudiantes</h1>;
+  const container = document.getElementById('root')
+
+  ReactDOM.render(
+    jsx,
+    container
+  )
+ */
+
+ //JS
+
+/*  const elemento = React.createElement('h1', {},'hola estudiantes')
+ const container = document.getElementById('root');
+    ReactDOM.render(
+      elemento,
+      container,
+    )
+ */
+
+/*  const elemento = React.createElement('a', {href: 'https://github.com/derlyvivianamurcia'}, 'Ir a gitHub');
+
+ const container = document.getElementById('root');
+
+ ReactDOM.render(
+   elemento,
+   container
+ )
+ */
+
+//  const name = 'Viviana'
+//  const elemento = React.createElement('h1', {}, `hola, soy ${name}`);
+//  const container = document.getElementById('root');
+
+//  ReactDOM.render(
+//   elemento,
+//   container
+// )
+
+//JSX
+/* const name = 'Viviana'
+const jsx = <h1>hola, soy {name}</h1>
+const container = document.getElementById('root');
+
+ReactDOM.render(
+   jsx,
+    container
+  )
+   */
+/*   const jsx = <h1>El resultado de la suma es: {2+2}</h1>
+  const container = document.getElementById('root');
+  
+  ReactDOM.render(
+     jsx,
+      container
+    ) */
+
+    /* const suma = () => 3+5;
+    const jsx = <h1>La suma es: {suma()}</h1>
+    const container = document.getElementById('root');
+    ReactDOM.render(
+      jsx,
+      container
+    ) */
+
+    /* const jsx =
+    <div>
+      <h1>
+        hola mundo
+      </h1>
+      <p>
+        Soy desarrolladora FrontEnd
+      </p>
+    </div>
+    const container = document.getElementById('root');
+    ReactDOM.render(
+      jsx,
+      container
+    ) */
+
+    //JS
+  /*   const elemento = React.createElement(
+      'div',
+      {},
+      React.createElement('h1', {}, 'Hola mundo'),
+      React.createElement('p', {}, 'Soy desarrolladora FrontEnd')
+    )
+const container = document.getElementById('root');
+
+ReactDOM.render(
+  elemento,
+  container
+)
+
+ */
