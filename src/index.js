@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import './components/styles/Global.css'
-import Insignia from './components/Insignia.jsx'
+import InsigniaNueva from './pages/InsigniaNueva';
 //import App from './App';
 
 ReactDOM.render(
   <>
-    <Insignia firstName='Derly viviana' lastName='Murcia Serrano' ocupacion='FrontEnd' usuarioGit='derlyvivianamurcia' URLAvatar='https://s.gravatar.com/avatar/70caecc888cae6a3fb3858ff8fb8ff59?s=80'  />
+    <InsigniaNueva />
   </>,
   document.getElementById('root')
 );
