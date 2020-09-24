@@ -12,7 +12,7 @@ function Aplicacion() {
      
       <Switch>
         <Route exact path='/' component={Insigniapages}/>
-        <Route exact path='/insignianueva' component={InsigniaNueva}/>
+        <Route exact path='/insignian' component={InsigniaNueva}/>
       </Switch>
     
       </Layout>
