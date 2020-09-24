@@ -26,8 +26,7 @@ class InsigniaNueva extends React.Component{
 
     render(){
         return(
-            <div>
-            <Navbar/>
+            <React.Fragment>
             <div className='hero'>
                 <img className='img-fluid' src={LogoHeader}/>
             </div>
@@ -47,9 +46,8 @@ class InsigniaNueva extends React.Component{
                     </div>
                 </div>
             </div>
-
-            
-            </div>
+           
+            </React.Fragment>
         )
     }
 }
