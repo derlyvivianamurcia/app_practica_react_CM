@@ -18,7 +18,7 @@ class Insignia extends React.Component{
                     <div>{this.props.usuarioGit}</div>
                 </div>
                 <div className='Insignia__footer'>
-                    Derechos reservados
+                    Derechos
                 </div>
             </div>
         )
